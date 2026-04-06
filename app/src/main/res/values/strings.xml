@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recommendations_loading_hint">Подбираем места по вашей истории…</string>
+    <string name="recommendations_hint_cold">Создавайте поездки и открывайте их — мы сохраняем направления в Firebase и персонализируем подбор.</string>
+    <string name="recommendations_hint_warm">На основе ваших направлений из истории посещений.</string>
+    <string name="recommendations_refresh_cd">Обновить подбор мест</string>
+    <string name="recommendations_empty_hint">Включите геолокацию для мест рядом или добавьте объекты в каталог Firebase (узел places).</string>
+    <string name="rec_location_enable">Показать интересное рядом (геолокация)</string>
+    <string name="rec_location_denied">Геолокация выключена — показываем только персональный каталог</string>
+    <string name="rec_location_unavailable">Не удалось определить место. Включите GPS и попробуйте обновить.</string>
+    <string name="recommendations_hint_nearby">Сначала — точки рядом с вами (Яндекс), затем — персональный каталог.</string>
+</resources>

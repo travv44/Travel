@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_100"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тестирование Firebase Realtime Database"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray_900"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/saveTripBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить поездку"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/loadTripsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Загрузить поездки"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/savePlaceBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить место"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/loadPlacesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Загрузить места"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/addPlaceToTripBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить место в поездку"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/viewJsonBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Просмотреть структуру БД (JSON)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/initializeDbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Заполнить базу данных (Инициализация)"
+            android:backgroundTint="@color/teal_500"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Результат:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray_900"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Нажмите кнопку для выполнения операции"
+            android:textSize="14sp"
+            android:textColor="@color/gray_700"
+            android:background="@android:color/white"
+            android:padding="12dp"
+            android:minHeight="200dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

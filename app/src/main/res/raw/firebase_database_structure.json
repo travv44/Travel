@@ -1,0 +1,118 @@
+{
+  "users": {
+    "user_1234567890": {
+      "email": "user1@example.com",
+      "fullName": "Иван Иванов",
+      "passwordHash": "hash_заглушка",
+      "createdAt": 1704067200000,
+      "isBlocked": false,
+      "failedLoginAttempts": 0,
+      "lastFailedLoginAt": null
+    },
+    "user_9876543210": {
+      "email": "user2@example.com",
+      "fullName": "Мария Петрова",
+      "passwordHash": "hash_заглушка_2",
+      "createdAt": 1704153600000,
+      "isBlocked": false,
+      "failedLoginAttempts": 0,
+      "lastFailedLoginAt": null
+    }
+  },
+  "trips": {
+    "trip_1704067200000": {
+      "userId": "user_1234567890",
+      "name": "Поездка в Москву",
+      "destination": "Москва, Россия",
+      "destinationLat": "55.751244",
+      "destinationLon": "37.618423",
+      "date": "01.05.2025",
+      "createdAt": 1704067200000,
+      "places": {
+        "place_Красная_площадь_55.753930_37.620795": {
+          "id": "place_Красная_площадь_55.753930_37.620795",
+          "name": "Красная площадь",
+          "description": "Исторический центр Москвы",
+          "lat": "55.753930",
+          "lon": "37.620795",
+          "imageUrl": "https://static-maps.yandex.ru/1.x/?ll=37.620795,55.753930&z=16&size=600,400&pt=37.620795,55.753930,pm2rdm&l=map",
+          "address": "Москва, Красная площадь",
+          "plannedDate": "01.05.2025",
+          "plannedTime": "10:00"
+        },
+        "place_Третьяковская_галерея_55.741394_37.620793": {
+          "id": "place_Третьяковская_галерея_55.741394_37.620793",
+          "name": "Третьяковская галерея",
+          "description": "Крупнейший музей русского искусства",
+          "lat": "55.741394",
+          "lon": "37.620793",
+          "imageUrl": "https://static-maps.yandex.ru/1.x/?ll=37.620793,55.741394&z=16&size=600,400&pt=37.620793,55.741394,pm2rdm&l=map",
+          "address": "Москва, Лаврушинский пер., 10",
+          "plannedDate": "01.05.2025",
+          "plannedTime": "14:00"
+        }
+      }
+    },
+    "trip_1704153600000": {
+      "userId": "user_9876543210",
+      "name": "Поездка в Санкт-Петербург",
+      "destination": "Санкт-Петербург, Россия",
+      "destinationLat": "59.9343",
+      "destinationLon": "30.3351",
+      "date": "10.06.2025",
+      "createdAt": 1704153600000,
+      "places": {
+        "place_Эрмитаж_59.9400_30.3139": {
+          "id": "place_Эрмитаж_59.9400_30.3139",
+          "name": "Эрмитаж",
+          "description": "Государственный Эрмитаж - один из крупнейших музеев мира",
+          "lat": "59.9400",
+          "lon": "30.3139",
+          "imageUrl": "https://static-maps.yandex.ru/1.x/?ll=30.3139,59.9400&z=16&size=600,400&pt=30.3139,59.9400,pm2rdm&l=map",
+          "address": "Санкт-Петербург, Дворцовая пл., 2",
+          "plannedDate": "10.06.2025",
+          "plannedTime": "11:00"
+        }
+      }
+    }
+  },
+  "places": {
+    "place_Красная_площадь_55.753930_37.620795": {
+      "id": "place_Красная_площадь_55.753930_37.620795",
+      "name": "Красная площадь",
+      "description": "Исторический центр Москвы, главная площадь России",
+      "lat": "55.753930",
+      "lon": "37.620795",
+      "imageUrl": "https://static-maps.yandex.ru/1.x/?ll=37.620795,55.753930&z=16&size=600,400&pt=37.620795,55.753930,pm2rdm&l=map",
+      "address": "Москва, Красная площадь",
+      "createdAt": 1704067200000
+    },
+    "place_Третьяковская_галерея_55.741394_37.620793": {
+      "id": "place_Третьяковская_галерея_55.741394_37.620793",
+      "name": "Третьяковская галерея",
+      "description": "Крупнейший музей русского искусства",
+      "lat": "55.741394",
+      "lon": "37.620793",
+      "imageUrl": "https://static-maps.yandex.ru/1.x/?ll=37.620793,55.741394&z=16&size=600,400&pt=37.620793,55.741394,pm2rdm&l=map",
+      "address": "Москва, Лаврушинский пер., 10",
+      "createdAt": 1704067200000
+    }
+  },
+  "loginAudit": {
+    "audit_1704067200000_1": {
+      "userId": "user_1234567890",
+      "loginTime": 1704067200000,
+      "success": true,
+      "ipAddress": "192.168.1.100",
+      "userAgent": "Mozilla/5.0"
+    },
+    "audit_1704067300000_1": {
+      "userId": "user_1234567890",
+      "loginTime": 1704067300000,
+      "success": false,
+      "ipAddress": "192.168.1.100",
+      "userAgent": "Mozilla/5.0"
+    }
+  }
+}
+
